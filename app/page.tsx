@@ -13,7 +13,7 @@ export default function Home() {
 
       </div>
       <div className= 'grid grid-cols-2 max-sm:grid-cols-1  place-items-center'>
-        <Link href='/store/women' className=''>
+        <Link href='/store/women' className='tooltip tooltip-primary hover:tooltip-open ' data-tip="women">
 
         <Image
         src='/images/home-photo-3.webp'
@@ -23,14 +23,14 @@ export default function Home() {
         className="rounded-t-full bg-clip-content p-2  hover:border-4 hover:border-blue-300 transition border-dashed"
         />
         </Link>
-        <Link href='/store/men' className='flex flex-col gap-2'>
+        <Link href='/store/men' className='flex flex-col gap-2 tooltip tooltip-primary hover:tooltip-open'  data-tip="men">
 
         <Image
         src='/images/home-photo-2.webp'
         alt='foto'
         width={165}
         height={250}
-        className="rounded-full bg-clip-content p-2 hover:border-4 hover:border-blue-300 transition border-dashed"
+        className="rounded-full bg-clip-content p-2 hover:border-4 hover:border-blue-300 transition border-dashed "
         />
        
 
