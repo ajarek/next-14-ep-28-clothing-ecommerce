@@ -73,19 +73,19 @@ const Navbar = () => {
         Home
         </Link>
         <Link
-          href='/men'
+          href='/store/men'
           className='link link-hover btn-ghost text-xl'
         >
           Men
         </Link>
         <Link
-          href='/women'
+          href='/store/women'
           className='link link-hover btn-ghost text-xl'
         >
           Women
         </Link>
         <Link
-          href='/all'
+          href='/store/all'
           className=' link link-hover btn-ghost text-xl'
         >
           Explore All
