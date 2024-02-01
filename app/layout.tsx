@@ -17,8 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en"  data-theme='light'>
       <body className={inter.className}>
+        <div className="max-w-[1440px] mx-auto">
+
         <Navbar />
         {children}
+        </div>
         </body>
     </html>
   );
