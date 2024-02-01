@@ -3,7 +3,7 @@ import React from 'react'
 
 const Menu = () => {
   return (
-    <ul className="menu bg-primary text-white w-56 ">
+    <ul className="menu bg-primary text-white w-56  max-lg:hidden">
   <li className="menu-title text-white">Category:</li>
   <li><Link href="/store/men">Men</Link></li>
   <li><Link href="/store/women">Women</Link></li>

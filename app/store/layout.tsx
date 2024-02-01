@@ -6,7 +6,7 @@ import { Inter } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: "Men",
+  title: "Products",
   description: "E-commerce for men",
 };
 

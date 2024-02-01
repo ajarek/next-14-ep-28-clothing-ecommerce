@@ -11,19 +11,19 @@ const MobileMenu = () => {
        Home
       </Link>
       <Link
-        href='/men'
+        href='/store/men'
         className='btn btn-square btn-ghost text-xl'
       >
         Men
       </Link>
       <Link
-        href='/women'
+        href='/store/women'
         className='btn btn-square btn-ghost text-xl'
       >
         Women
       </Link>
       <Link
-        href='/all'
+        href='/store/all'
         className='btn btn-square btn-ghost text-xl'
       >
         All

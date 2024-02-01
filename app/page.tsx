@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-[calc(100vh-64px)]  grid grid-cols-2 max-sm:grid-cols-1 items-center 
-     px-24">
+     px-24 max-sm:px-2">
       <div className="flex flex-col gap-4 px-4">
      <h1 className="text-3xl font-bold">Experience the height of fashion with our exquisite designer pieces</h1>
      <p>Where style, sophistication, exclusivity is the forefront of our collection. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quaerat nostrum quia nam earum, libero, expedita impedit delectus provident quo eveniet.</p>
