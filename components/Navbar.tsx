@@ -2,8 +2,10 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import MobileMenu from './MobileMenu'
-
+import Image from 'next/image'
+import { useCartStore } from '@/state/useCartStore'
 const Navbar = () => {
+  const { totalItems } = useCartStore()
   const [open, setOpen] = useState(false)
   const [isDark, setIsDark] = useState(false)
 
@@ -130,6 +132,17 @@ const Navbar = () => {
           <path d='M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z'></path>
         </svg>
       </label>
+      <Link href='/cart/' className='btn btn-primary text-2xl'>
+      <Image
+                src={'/images/cart.svg'}
+                alt='icon'
+                width={40}
+                height={40}
+                className='bg-white ml-4  rounded-lg p-1'
+              />
+          <sup className='text-xl text-white '>
+          {totalItems}
+                  </sup></Link>
       {open && <MobileMenu />}
     </div>
   )
