@@ -1,6 +1,5 @@
 'use client'
 
-
 import { useRouter } from 'next/navigation'
 import { useCartStore, ProductType } from '@/state/useCartStore'
 import React, { useEffect, useState } from 'react'
@@ -44,12 +43,9 @@ const Price = ({ product }: { product: ProductType }) => {
   return (
     <div className='flex flex-col gap-4'>
       <h2 className='text-2xl font-bold'>${(+total).toFixed(2)}</h2>
-      {/* OPTIONS CONTAINER */}
 
-      {/* QUANTITY AND ADD BUTTON CONTAINER */}
-      <div className='flex justify-between items-center'>
-        {/* QUANTITY */}
-        <div className='flex justify-between items-center w-full h-11 px-3 ring-2 ring-primary max-sm:w-3/4'>
+      <div className=' flex  items-center '>
+        <div className='w-60 flex justify-between items-center pl-2 pr-6 py-[11px] border border-blue-500 '>
           <span className='mr-2'>Quantity</span>
           <div className='flex gap-4 items-center max-sm:gap-2'>
             <button
@@ -67,7 +63,7 @@ const Price = ({ product }: { product: ProductType }) => {
         </div>
         {/* CART BUTTON */}
         <button
-          className='uppercase w-56 btn btn-primary     text-white rounded-s-none max-sm:w-full max-sm:px-2 '
+          className='uppercase  btn btn-primary     text-white rounded-s-none -2 '
           onClick={handleCart}
         >
           Add to Cart

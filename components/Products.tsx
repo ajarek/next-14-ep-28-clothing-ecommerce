@@ -10,9 +10,9 @@ type Product = {
 const Products = ({ products }: { products: Product[] }) => {
   return (
     <>
-      
       {products.map((product: Product) => (
-        <Link href={`/product/${product.id}`} 
+        <Link
+          href={`/product/${product.id}`}
           key={product.id}
           className=' w-[300px] h-[360px] bg-base-100 shadow-2xl p-4 flex flex-col justify-between rounded-lg border border-gray-300'
         >
@@ -28,7 +28,7 @@ const Products = ({ products }: { products: Product[] }) => {
             <p className=' text-sm'>{product.title.slice(0, 20)}</p>
             <p className='text-xl'>${product.price}</p>
             <div className=' self-end'>
-              <Link href='/cart/' className='btn btn-primary'>Buy Now</Link>
+              <button className='btn btn-primary'>Buy Now</button>
             </div>
           </div>
         </Link>

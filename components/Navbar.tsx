@@ -62,12 +62,12 @@ const Navbar = () => {
       <div className='flex-1'>
         <Link
           href={'/'}
-          className='btn btn-ghost text-xl'
+          className='btn btn-ghost max-sm:btn-sm text-xl'
         >
          Ace Store
         </Link>
       </div>
-      <div className=' w-1/3 flex justify-center max-sm:hidden gap-4  '>
+      <div className=' w-1/2  flex justify-center max-sm:hidden gap-4  '>
         <Link
           href='/'
           className='link link-hover btn-ghost text-xl'
@@ -90,7 +90,7 @@ const Navbar = () => {
           href='/store/all'
           className=' link link-hover btn-ghost text-xl'
         >
-          Explore All
+         All
         </Link>
       </div>
       <label className='flex cursor-pointer gap-2'>
