@@ -4,7 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <img width="150" alt="Zrzut ekranu 2024-02-04 213858" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/3af3cc88-a76c-4910-a1d0-2270fec7e1db">
 <img width="150" alt="Zrzut ekranu 2024-02-04 213932" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/7968ade4-4b61-402e-8a30-220020111ced">
 <img width="150" alt="Zrzut ekranu 2024-02-04 214123" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/0f9fb9e1-60c3-4a4e-8bfd-6015d05b0714">
+![Uploading Zrzut ekranu 2024-02-04 220133.png…]()
 <img width="150" alt="Zrzut ekranu 2024-02-04 214217" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/a5b5561c-81fd-4452-822c-b58cb092921b">
+<img width="278" alt="image" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/69329b37-a2b7-4399-8ee3-885c1af9a1dc">
 
 
 <img width="300" alt="Zrzut ekranu 2024-02-04 214330" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/5471f92c-95e7-44c2-8f6e-ac312149d30c">
