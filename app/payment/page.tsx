@@ -44,7 +44,7 @@ const Payment = () => {
       >
         <div className='flex'></div>
         <div className='w-100%'>
-          <label className='text-black' htmlFor='cardNumber'>Do zapłaty</label>
+          <label className='text-black' htmlFor='cardNumber'>To pay</label>
           <input
             type='text'
             value={allPayValue}
@@ -54,7 +54,7 @@ const Payment = () => {
         </div>
 
         <div className='w-100%'>
-          <label className='text-black' htmlFor='cardNumber'>Numer Karty</label>
+          <label className='text-black' htmlFor='cardNumber'>Card number</label>
           <input
             type='text'
             placeholder='1234 5678 9012 3456'
@@ -64,7 +64,7 @@ const Payment = () => {
           />
         </div>
         <div className='w-100% '>
-          <label className='text-black' htmlFor='expiryDate'>Data Ważności</label>
+          <label className='text-black' htmlFor='expiryDate'>Expiration date</label>
           <input
             type='text'
             placeholder='MM/YYYY'
