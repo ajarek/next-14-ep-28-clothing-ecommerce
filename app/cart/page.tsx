@@ -90,6 +90,9 @@ const Cart = () => {
               .toFixed(2)}{' '}
             $
           </div>
+          <div className='text-right pr-[168px] mt-4 '>
+            <Link  href={'/payment'} className='btn btn-primary px-16' >Pay</Link>
+          </div>
         </>
       )}
     </div>
