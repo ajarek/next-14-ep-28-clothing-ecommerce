@@ -1,6 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+
+<img width="150" alt="Zrzut ekranu 2024-02-04 213858" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/3af3cc88-a76c-4910-a1d0-2270fec7e1db">
+<img width="150" alt="Zrzut ekranu 2024-02-04 213932" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/7968ade4-4b61-402e-8a30-220020111ced">
+<img width="150" alt="Zrzut ekranu 2024-02-04 214123" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/0f9fb9e1-60c3-4a4e-8bfd-6015d05b0714">
+
+<img width="150" alt="Zrzut ekranu 2024-02-04 214217" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/a5b5561c-81fd-4452-822c-b58cb092921b">
+
+<img width="150" alt="Zrzut ekranu 2024-02-04 220133" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/8c2beba0-7c93-453e-a2f7-7e43526dc506">
+
+
+<img width="300" alt="Zrzut ekranu 2024-02-04 214330" src="https://github.com/ajarek/next-14-ep-28-clothing-ecommerce/assets/61388692/5471f92c-95e7-44c2-8f6e-ac312149d30c">
+
+## Getting Started![Uploading Zrzut ekranu 2024-02-04 213932.png…]()
+
 
 First, run the development server:
 
